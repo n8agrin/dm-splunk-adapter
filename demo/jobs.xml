@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is to override browser formatting; see server.conf[httpServer] to disable. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .-->
+<?xml-stylesheet type="text/xml" href="/static/atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:s="http://dev.splunk.com/ns/rest" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
+  <title>jobs</title>
+  <id>https://spacecake.splunk.com:8778/services/search/jobs</id>
+  <updated>2010-03-31T14:43:27-0700</updated>
+  <generator version="77712"/>
+  <author>
+
+    <name>Splunk</name>
+  </author>
+  <opensearch:totalResults>12</opensearch:totalResults>
+  <opensearch:itemsPerPage>0</opensearch:itemsPerPage>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <title>search  index=_internal metrics per_sourcetype_thruput | head 100 | timechart count</title>
+
+    <id>https://spacecake.splunk.com:8778/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071780_596423375</id>
+    <updated>2010-03-31T14:43:16.000-07:00</updated>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071780_596423375" rel="alternate"/>
+    <published>2010-03-31T14:43:01.000-07:00</published>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071780_596423375/events" rel="events"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071780_596423375/results" rel="results"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071780_596423375/results_preview" rel="results_preview"/>
+
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071780_596423375/timeline" rel="timeline"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071780_596423375/summary" rel="summary"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071780_596423375/control" rel="control"/>
+    <author>
+      <name>splunk-system-user</name>
+    </author>
+    <content type="text/xml">
+      <s:dict>
+
+        <s:key name="cursorTime">2010-03-31T00:36:53.000-07:00</s:key>
+        <s:key name="delegate">scheduler</s:key>
+        <s:key name="doneProgress">1.00000</s:key>
+        <s:key name="dropCount">0</s:key>
+        <s:key name="earliestTime">2009-12-28T18:16:59.000-08:00</s:key>
+        <s:key name="eventAvailableCount">0</s:key>
+
+        <s:key name="eventCount">0</s:key>
+        <s:key name="eventFieldCount">0</s:key>
+        <s:key name="eventIsStreaming">1</s:key>
+        <s:key name="eventIsTruncated">1</s:key>
+        <s:key name="eventSearch">search index=_internal metrics per_sourcetype_thruput  | head 100 </s:key>
+        <s:key name="eventSorting">desc</s:key>
+
+        <s:key name="isDone">1</s:key>
+        <s:key name="isFailed">0</s:key>
+        <s:key name="isFinalized">0</s:key>
+        <s:key name="isPaused">0</s:key>
+        <s:key name="isPreviewEnabled">0</s:key>
+        <s:key name="isRealTimeSearch">0</s:key>
+
+        <s:key name="isSaved">0</s:key>
+        <s:key name="isSavedSearch">1</s:key>
+        <s:key name="isZombie">0</s:key>
+        <s:key name="keywords">*per_sourcetype_thruput* index::_internal metrics</s:key>
+        <s:key name="label">sample scheduled search for dashboards (existing job case) timechart</s:key>
+        <s:key name="latestTime">2010-03-31T14:43:00.000-07:00</s:key>
+
+        <s:key name="priority">5</s:key>
+        <s:key name="remoteSearch">litsearch index=_internal metrics per_sourcetype_thruput | fields  keepcolorder=t "_time" "prestats_reserved_*" "psrsvd_*" | prehead  limit=100 null=false keeplast=false</s:key>
+        <s:key name="reportSearch">timechart  count</s:key>
+        <s:key name="resultCount">80</s:key>
+        <s:key name="resultIsStreaming">0</s:key>
+        <s:key name="resultPreviewCount">80</s:key>
+
+        <s:key name="runDuration">0.233000</s:key>
+        <s:key name="scanCount">502</s:key>
+        <s:key name="searchLatestTime">1270071780.000000000</s:key>
+        <s:key name="sid">scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071780_596423375</s:key>
+        <s:key name="statusBuckets">0</s:key>
+        <s:key name="ttl">109</s:key>
+
+        <s:key name="messages">
+          <s:dict/>
+        </s:key>
+        <s:key name="request">
+          <s:dict>
+            <s:key name="ui_dispatch_app"></s:key>
+            <s:key name="ui_dispatch_view"></s:key>
+          </s:dict>
+        </s:key>
+
+        <s:key name="eai:acl">
+          <s:dict>
+            <s:key name="perms">
+              <s:dict>
+                <s:key name="read">
+                  <s:list>
+                    <s:item>*</s:item>
+                  </s:list>
+
+                </s:key>
+                <s:key name="write">
+                  <s:list>
+                    <s:item>*</s:item>
+                  </s:list>
+                </s:key>
+              </s:dict>
+            </s:key>
+
+            <s:key name="owner">nobody</s:key>
+            <s:key name="modifiable">true</s:key>
+            <s:key name="sharing">global</s:key>
+            <s:key name="app">testing</s:key>
+            <s:key name="can_write">true</s:key>
+          </s:dict>
+
+        </s:key>
+        <s:key name="searchProviders">
+          <s:list>
+            <s:item>spacecake-nate</s:item>
+          </s:list>
+        </s:key>
+      </s:dict>
+    </content>
+
+  </entry>
+  <entry>
+    <title>search  index=_internal metrics per_sourcetype_thruput | head 100</title>
+    <id>https://spacecake.splunk.com:8778/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071780_2024668077</id>
+    <updated>2010-03-31T14:43:16.000-07:00</updated>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071780_2024668077" rel="alternate"/>
+    <published>2010-03-31T14:43:01.000-07:00</published>
+
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071780_2024668077/events" rel="events"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071780_2024668077/results" rel="results"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071780_2024668077/results_preview" rel="results_preview"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071780_2024668077/timeline" rel="timeline"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071780_2024668077/summary" rel="summary"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071780_2024668077/control" rel="control"/>
+    <author>
+      <name>splunk-system-user</name>
+
+    </author>
+    <content type="text/xml">
+      <s:dict>
+        <s:key name="cursorTime">1969-12-31T16:00:00.000-08:00</s:key>
+        <s:key name="delegate">scheduler</s:key>
+        <s:key name="doneProgress">1.00000</s:key>
+        <s:key name="dropCount">0</s:key>
+
+        <s:key name="earliestTime">2009-12-28T18:16:59.000-08:00</s:key>
+        <s:key name="eventAvailableCount">100</s:key>
+        <s:key name="eventCount">100</s:key>
+        <s:key name="eventFieldCount">5</s:key>
+        <s:key name="eventIsStreaming">1</s:key>
+        <s:key name="eventIsTruncated">0</s:key>
+
+        <s:key name="eventSearch">search index=_internal metrics per_sourcetype_thruput  | head 100</s:key>
+        <s:key name="eventSorting">desc</s:key>
+        <s:key name="isDone">1</s:key>
+        <s:key name="isFailed">0</s:key>
+        <s:key name="isFinalized">0</s:key>
+        <s:key name="isPaused">0</s:key>
+
+        <s:key name="isPreviewEnabled">0</s:key>
+        <s:key name="isRealTimeSearch">0</s:key>
+        <s:key name="isSaved">0</s:key>
+        <s:key name="isSavedSearch">1</s:key>
+        <s:key name="isZombie">0</s:key>
+        <s:key name="keywords">*per_sourcetype_thruput* index::_internal metrics</s:key>
+
+        <s:key name="label">sample scheduled search for dashboards (existing job case)</s:key>
+        <s:key name="latestTime">2010-03-31T14:43:00.000-07:00</s:key>
+        <s:key name="priority">5</s:key>
+        <s:key name="remoteSearch">litsearch index=_internal metrics per_sourcetype_thruput | fields  keepcolorder=t "host" "index" "source" "sourcetype" "splunk_server" | prehead  limit=100 null=false keeplast=false</s:key>
+        <s:key name="reportSearch"></s:key>
+        <s:key name="resultCount">100</s:key>
+
+        <s:key name="resultIsStreaming">1</s:key>
+        <s:key name="resultPreviewCount">100</s:key>
+        <s:key name="runDuration">0.140000</s:key>
+        <s:key name="scanCount">502</s:key>
+        <s:key name="searchLatestTime">1270071780.000000000</s:key>
+        <s:key name="sid">scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071780_2024668077</s:key>
+
+        <s:key name="statusBuckets">0</s:key>
+        <s:key name="ttl">109</s:key>
+        <s:key name="messages">
+          <s:dict/>
+        </s:key>
+        <s:key name="request">
+          <s:dict>
+            <s:key name="ui_dispatch_app"></s:key>
+
+            <s:key name="ui_dispatch_view"></s:key>
+          </s:dict>
+        </s:key>
+        <s:key name="eai:acl">
+          <s:dict>
+            <s:key name="perms">
+              <s:dict>
+                <s:key name="read">
+                  <s:list>
+
+                    <s:item>*</s:item>
+                  </s:list>
+                </s:key>
+                <s:key name="write">
+                  <s:list>
+                    <s:item>*</s:item>
+                  </s:list>
+                </s:key>
+
+              </s:dict>
+            </s:key>
+            <s:key name="owner">nobody</s:key>
+            <s:key name="modifiable">true</s:key>
+            <s:key name="sharing">global</s:key>
+            <s:key name="app">testing</s:key>
+            <s:key name="can_write">true</s:key>
+
+          </s:dict>
+        </s:key>
+        <s:key name="searchProviders">
+          <s:list>
+            <s:item>spacecake-nate</s:item>
+          </s:list>
+        </s:key>
+      </s:dict>
+
+    </content>
+  </entry>
+  <entry>
+    <title>search  index=_internal metrics per_sourcetype_thruput | head 100</title>
+    <id>https://spacecake.splunk.com:8778/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071720_2102410297</id>
+    <updated>2010-03-31T14:42:06.000-07:00</updated>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071720_2102410297" rel="alternate"/>
+
+    <published>2010-03-31T14:42:01.000-07:00</published>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071720_2102410297/events" rel="events"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071720_2102410297/results" rel="results"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071720_2102410297/results_preview" rel="results_preview"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071720_2102410297/timeline" rel="timeline"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071720_2102410297/summary" rel="summary"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071720_2102410297/control" rel="control"/>
+    <author>
+
+      <name>splunk-system-user</name>
+    </author>
+    <content type="text/xml">
+      <s:dict>
+        <s:key name="cursorTime">1969-12-31T16:00:00.000-08:00</s:key>
+        <s:key name="delegate">scheduler</s:key>
+        <s:key name="doneProgress">1.00000</s:key>
+
+        <s:key name="dropCount">0</s:key>
+        <s:key name="earliestTime">2009-12-28T18:16:59.000-08:00</s:key>
+        <s:key name="eventAvailableCount">100</s:key>
+        <s:key name="eventCount">100</s:key>
+        <s:key name="eventFieldCount">5</s:key>
+        <s:key name="eventIsStreaming">1</s:key>
+
+        <s:key name="eventIsTruncated">0</s:key>
+        <s:key name="eventSearch">search index=_internal metrics per_sourcetype_thruput  | head 100</s:key>
+        <s:key name="eventSorting">desc</s:key>
+        <s:key name="isDone">1</s:key>
+        <s:key name="isFailed">0</s:key>
+        <s:key name="isFinalized">0</s:key>
+
+        <s:key name="isPaused">0</s:key>
+        <s:key name="isPreviewEnabled">0</s:key>
+        <s:key name="isRealTimeSearch">0</s:key>
+        <s:key name="isSaved">0</s:key>
+        <s:key name="isSavedSearch">1</s:key>
+        <s:key name="isZombie">0</s:key>
+
+        <s:key name="keywords">*per_sourcetype_thruput* index::_internal metrics</s:key>
+        <s:key name="label">sample scheduled search for dashboards (existing job case)</s:key>
+        <s:key name="latestTime">2010-03-31T14:42:00.000-07:00</s:key>
+        <s:key name="priority">5</s:key>
+        <s:key name="remoteSearch">litsearch index=_internal metrics per_sourcetype_thruput | fields  keepcolorder=t "host" "index" "source" "sourcetype" "splunk_server" | prehead  limit=100 null=false keeplast=false</s:key>
+        <s:key name="reportSearch"></s:key>
+
+        <s:key name="resultCount">100</s:key>
+        <s:key name="resultIsStreaming">1</s:key>
+        <s:key name="resultPreviewCount">100</s:key>
+        <s:key name="runDuration">0.139000</s:key>
+        <s:key name="scanCount">502</s:key>
+        <s:key name="searchLatestTime">1270071720.000000000</s:key>
+
+        <s:key name="sid">scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071720_2102410297</s:key>
+        <s:key name="statusBuckets">0</s:key>
+        <s:key name="ttl">39</s:key>
+        <s:key name="messages">
+          <s:dict/>
+        </s:key>
+        <s:key name="request">
+
+          <s:dict>
+            <s:key name="ui_dispatch_app"></s:key>
+            <s:key name="ui_dispatch_view"></s:key>
+          </s:dict>
+        </s:key>
+        <s:key name="eai:acl">
+          <s:dict>
+            <s:key name="perms">
+              <s:dict>
+
+                <s:key name="read">
+                  <s:list>
+                    <s:item>*</s:item>
+                  </s:list>
+                </s:key>
+                <s:key name="write">
+                  <s:list>
+                    <s:item>*</s:item>
+
+                  </s:list>
+                </s:key>
+              </s:dict>
+            </s:key>
+            <s:key name="owner">nobody</s:key>
+            <s:key name="modifiable">true</s:key>
+            <s:key name="sharing">global</s:key>
+
+            <s:key name="app">testing</s:key>
+            <s:key name="can_write">true</s:key>
+          </s:dict>
+        </s:key>
+        <s:key name="searchProviders">
+          <s:list>
+            <s:item>spacecake-nate</s:item>
+
+          </s:list>
+        </s:key>
+      </s:dict>
+    </content>
+  </entry>
+  <entry>
+    <title>search  index=_internal metrics per_sourcetype_thruput | head 100 | timechart count</title>
+    <id>https://spacecake.splunk.com:8778/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071720_631049979</id>
+
+    <updated>2010-03-31T14:42:06.000-07:00</updated>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071720_631049979" rel="alternate"/>
+    <published>2010-03-31T14:42:01.000-07:00</published>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071720_631049979/events" rel="events"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071720_631049979/results" rel="results"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071720_631049979/results_preview" rel="results_preview"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071720_631049979/timeline" rel="timeline"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071720_631049979/summary" rel="summary"/>
+
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071720_631049979/control" rel="control"/>
+    <author>
+      <name>splunk-system-user</name>
+    </author>
+    <content type="text/xml">
+      <s:dict>
+        <s:key name="cursorTime">2010-03-31T00:36:53.000-07:00</s:key>
+        <s:key name="delegate">scheduler</s:key>
+
+        <s:key name="doneProgress">1.00000</s:key>
+        <s:key name="dropCount">0</s:key>
+        <s:key name="earliestTime">2009-12-28T18:16:59.000-08:00</s:key>
+        <s:key name="eventAvailableCount">0</s:key>
+        <s:key name="eventCount">0</s:key>
+        <s:key name="eventFieldCount">0</s:key>
+
+        <s:key name="eventIsStreaming">1</s:key>
+        <s:key name="eventIsTruncated">1</s:key>
+        <s:key name="eventSearch">search index=_internal metrics per_sourcetype_thruput  | head 100 </s:key>
+        <s:key name="eventSorting">desc</s:key>
+        <s:key name="isDone">1</s:key>
+        <s:key name="isFailed">0</s:key>
+
+        <s:key name="isFinalized">0</s:key>
+        <s:key name="isPaused">0</s:key>
+        <s:key name="isPreviewEnabled">0</s:key>
+        <s:key name="isRealTimeSearch">0</s:key>
+        <s:key name="isSaved">0</s:key>
+        <s:key name="isSavedSearch">1</s:key>
+
+        <s:key name="isZombie">0</s:key>
+        <s:key name="keywords">*per_sourcetype_thruput* index::_internal metrics</s:key>
+        <s:key name="label">sample scheduled search for dashboards (existing job case) timechart</s:key>
+        <s:key name="latestTime">2010-03-31T14:42:00.000-07:00</s:key>
+        <s:key name="priority">5</s:key>
+        <s:key name="remoteSearch">litsearch index=_internal metrics per_sourcetype_thruput | fields  keepcolorder=t "_time" "prestats_reserved_*" "psrsvd_*" | prehead  limit=100 null=false keeplast=false</s:key>
+
+        <s:key name="reportSearch">timechart  count</s:key>
+        <s:key name="resultCount">80</s:key>
+        <s:key name="resultIsStreaming">0</s:key>
+        <s:key name="resultPreviewCount">80</s:key>
+        <s:key name="runDuration">0.140000</s:key>
+        <s:key name="scanCount">502</s:key>
+
+        <s:key name="searchLatestTime">1270071720.000000000</s:key>
+        <s:key name="sid">scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071720_631049979</s:key>
+        <s:key name="statusBuckets">0</s:key>
+        <s:key name="ttl">39</s:key>
+        <s:key name="messages">
+          <s:dict/>
+        </s:key>
+
+        <s:key name="request">
+          <s:dict>
+            <s:key name="ui_dispatch_app"></s:key>
+            <s:key name="ui_dispatch_view"></s:key>
+          </s:dict>
+        </s:key>
+        <s:key name="eai:acl">
+          <s:dict>
+            <s:key name="perms">
+
+              <s:dict>
+                <s:key name="read">
+                  <s:list>
+                    <s:item>*</s:item>
+                  </s:list>
+                </s:key>
+                <s:key name="write">
+                  <s:list>
+
+                    <s:item>*</s:item>
+                  </s:list>
+                </s:key>
+              </s:dict>
+            </s:key>
+            <s:key name="owner">nobody</s:key>
+            <s:key name="modifiable">true</s:key>
+
+            <s:key name="sharing">global</s:key>
+            <s:key name="app">testing</s:key>
+            <s:key name="can_write">true</s:key>
+          </s:dict>
+        </s:key>
+        <s:key name="searchProviders">
+          <s:list>
+
+            <s:item>spacecake-nate</s:item>
+          </s:list>
+        </s:key>
+      </s:dict>
+    </content>
+  </entry>
+  <entry>
+    <title>search  index=_internal metrics per_sourcetype_thruput | head 100 | timechart count</title>
+
+    <id>https://spacecake.splunk.com:8778/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071660_2110205671</id>
+    <updated>2010-03-31T14:41:26.000-07:00</updated>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071660_2110205671" rel="alternate"/>
+    <published>2010-03-31T14:41:01.000-07:00</published>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071660_2110205671/events" rel="events"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071660_2110205671/results" rel="results"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071660_2110205671/results_preview" rel="results_preview"/>
+
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071660_2110205671/timeline" rel="timeline"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071660_2110205671/summary" rel="summary"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071660_2110205671/control" rel="control"/>
+    <author>
+      <name>splunk-system-user</name>
+    </author>
+    <content type="text/xml">
+      <s:dict>
+
+        <s:key name="cursorTime">2010-03-31T00:36:53.000-07:00</s:key>
+        <s:key name="delegate">scheduler</s:key>
+        <s:key name="doneProgress">1.00000</s:key>
+        <s:key name="dropCount">0</s:key>
+        <s:key name="earliestTime">2009-12-28T18:16:59.000-08:00</s:key>
+        <s:key name="eventAvailableCount">0</s:key>
+
+        <s:key name="eventCount">0</s:key>
+        <s:key name="eventFieldCount">0</s:key>
+        <s:key name="eventIsStreaming">1</s:key>
+        <s:key name="eventIsTruncated">1</s:key>
+        <s:key name="eventSearch">search index=_internal metrics per_sourcetype_thruput  | head 100 </s:key>
+        <s:key name="eventSorting">desc</s:key>
+
+        <s:key name="isDone">1</s:key>
+        <s:key name="isFailed">0</s:key>
+        <s:key name="isFinalized">0</s:key>
+        <s:key name="isPaused">0</s:key>
+        <s:key name="isPreviewEnabled">0</s:key>
+        <s:key name="isRealTimeSearch">0</s:key>
+
+        <s:key name="isSaved">0</s:key>
+        <s:key name="isSavedSearch">1</s:key>
+        <s:key name="isZombie">0</s:key>
+        <s:key name="keywords">*per_sourcetype_thruput* index::_internal metrics</s:key>
+        <s:key name="label">sample scheduled search for dashboards (existing job case) timechart</s:key>
+        <s:key name="latestTime">2010-03-31T14:41:00.000-07:00</s:key>
+
+        <s:key name="priority">5</s:key>
+        <s:key name="remoteSearch">litsearch index=_internal metrics per_sourcetype_thruput | fields  keepcolorder=t "_time" "prestats_reserved_*" "psrsvd_*" | prehead  limit=100 null=false keeplast=false</s:key>
+        <s:key name="reportSearch">timechart  count</s:key>
+        <s:key name="resultCount">80</s:key>
+        <s:key name="resultIsStreaming">0</s:key>
+        <s:key name="resultPreviewCount">80</s:key>
+
+        <s:key name="runDuration">0.274000</s:key>
+        <s:key name="scanCount">502</s:key>
+        <s:key name="searchLatestTime">1270071660.000000000</s:key>
+        <s:key name="sid">scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKSB0aW1lY2hhcnQ_at_1270071660_2110205671</s:key>
+        <s:key name="statusBuckets">0</s:key>
+        <s:key name="ttl">0</s:key>
+
+        <s:key name="messages">
+          <s:dict/>
+        </s:key>
+        <s:key name="request">
+          <s:dict>
+            <s:key name="ui_dispatch_app"></s:key>
+            <s:key name="ui_dispatch_view"></s:key>
+          </s:dict>
+        </s:key>
+
+        <s:key name="eai:acl">
+          <s:dict>
+            <s:key name="perms">
+              <s:dict>
+                <s:key name="read">
+                  <s:list>
+                    <s:item>*</s:item>
+                  </s:list>
+
+                </s:key>
+                <s:key name="write">
+                  <s:list>
+                    <s:item>*</s:item>
+                  </s:list>
+                </s:key>
+              </s:dict>
+            </s:key>
+
+            <s:key name="owner">nobody</s:key>
+            <s:key name="modifiable">true</s:key>
+            <s:key name="sharing">global</s:key>
+            <s:key name="app">testing</s:key>
+            <s:key name="can_write">true</s:key>
+          </s:dict>
+
+        </s:key>
+        <s:key name="searchProviders">
+          <s:list>
+            <s:item>spacecake-nate</s:item>
+          </s:list>
+        </s:key>
+      </s:dict>
+    </content>
+
+  </entry>
+  <entry>
+    <title>search  index=_internal metrics per_sourcetype_thruput | head 100</title>
+    <id>https://spacecake.splunk.com:8778/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071660_931450501</id>
+    <updated>2010-03-31T14:41:26.000-07:00</updated>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071660_931450501" rel="alternate"/>
+    <published>2010-03-31T14:41:01.000-07:00</published>
+
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071660_931450501/events" rel="events"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071660_931450501/results" rel="results"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071660_931450501/results_preview" rel="results_preview"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071660_931450501/timeline" rel="timeline"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071660_931450501/summary" rel="summary"/>
+    <link href="/services/search/jobs/scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071660_931450501/control" rel="control"/>
+    <author>
+      <name>splunk-system-user</name>
+
+    </author>
+    <content type="text/xml">
+      <s:dict>
+        <s:key name="cursorTime">1969-12-31T16:00:00.000-08:00</s:key>
+        <s:key name="delegate">scheduler</s:key>
+        <s:key name="doneProgress">1.00000</s:key>
+        <s:key name="dropCount">0</s:key>
+
+        <s:key name="earliestTime">2009-12-28T18:16:59.000-08:00</s:key>
+        <s:key name="eventAvailableCount">100</s:key>
+        <s:key name="eventCount">100</s:key>
+        <s:key name="eventFieldCount">5</s:key>
+        <s:key name="eventIsStreaming">1</s:key>
+        <s:key name="eventIsTruncated">0</s:key>
+
+        <s:key name="eventSearch">search index=_internal metrics per_sourcetype_thruput  | head 100</s:key>
+        <s:key name="eventSorting">desc</s:key>
+        <s:key name="isDone">1</s:key>
+        <s:key name="isFailed">0</s:key>
+        <s:key name="isFinalized">0</s:key>
+        <s:key name="isPaused">0</s:key>
+
+        <s:key name="isPreviewEnabled">0</s:key>
+        <s:key name="isRealTimeSearch">0</s:key>
+        <s:key name="isSaved">0</s:key>
+        <s:key name="isSavedSearch">1</s:key>
+        <s:key name="isZombie">0</s:key>
+        <s:key name="keywords">*per_sourcetype_thruput* index::_internal metrics</s:key>
+
+        <s:key name="label">sample scheduled search for dashboards (existing job case)</s:key>
+        <s:key name="latestTime">2010-03-31T14:41:00.000-07:00</s:key>
+        <s:key name="priority">5</s:key>
+        <s:key name="remoteSearch">litsearch index=_internal metrics per_sourcetype_thruput | fields  keepcolorder=t "host" "index" "source" "sourcetype" "splunk_server" | prehead  limit=100 null=false keeplast=false</s:key>
+        <s:key name="reportSearch"></s:key>
+        <s:key name="resultCount">100</s:key>
+
+        <s:key name="resultIsStreaming">1</s:key>
+        <s:key name="resultPreviewCount">100</s:key>
+        <s:key name="runDuration">0.138000</s:key>
+        <s:key name="scanCount">502</s:key>
+        <s:key name="searchLatestTime">1270071660.000000000</s:key>
+        <s:key name="sid">scheduler__nobody__testing_c2FtcGxlIHNjaGVkdWxlZCBzZWFyY2ggZm9yIGRhc2hib2FyZHMgKGV4aXN0aW5nIGpvYiBjYXNlKQ_at_1270071660_931450501</s:key>
+
+        <s:key name="statusBuckets">0</s:key>
+        <s:key name="ttl">0</s:key>
+        <s:key name="messages">
+          <s:dict/>
+        </s:key>
+        <s:key name="request">
+          <s:dict>
+            <s:key name="ui_dispatch_app"></s:key>
+
+            <s:key name="ui_dispatch_view"></s:key>
+          </s:dict>
+        </s:key>
+        <s:key name="eai:acl">
+          <s:dict>
+            <s:key name="perms">
+              <s:dict>
+                <s:key name="read">
+                  <s:list>
+
+                    <s:item>*</s:item>
+                  </s:list>
+                </s:key>
+                <s:key name="write">
+                  <s:list>
+                    <s:item>*</s:item>
+                  </s:list>
+                </s:key>
+
+              </s:dict>
+            </s:key>
+            <s:key name="owner">nobody</s:key>
+            <s:key name="modifiable">true</s:key>
+            <s:key name="sharing">global</s:key>
+            <s:key name="app">testing</s:key>
+            <s:key name="can_write">true</s:key>
+
+          </s:dict>
+        </s:key>
+        <s:key name="searchProviders">
+          <s:list>
+            <s:item>spacecake-nate</s:item>
+          </s:list>
+        </s:key>
+      </s:dict>
+
+    </content>
+  </entry>
+  <entry>
+    <title>search  index=_internal (source=*/metrics.log* OR source=*\\metrics.log*) group=per_sourcetype_thruput | chart sum(kb) by series | sort -sum(kb) | head 5</title>
+    <id>https://spacecake.splunk.com:8778/services/search/jobs/scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071600_1719052799</id>
+    <updated>2010-03-31T14:40:16.000-07:00</updated>
+    <link href="/services/search/jobs/scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071600_1719052799" rel="alternate"/>
+
+    <published>2010-03-31T14:40:01.000-07:00</published>
+    <link href="/services/search/jobs/scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071600_1719052799/events" rel="events"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071600_1719052799/results" rel="results"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071600_1719052799/results_preview" rel="results_preview"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071600_1719052799/timeline" rel="timeline"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071600_1719052799/summary" rel="summary"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071600_1719052799/control" rel="control"/>
+    <author>
+
+      <name>splunk-system-user</name>
+    </author>
+    <content type="text/xml">
+      <s:dict>
+        <s:key name="cursorTime">1969-12-31T16:00:00.000-08:00</s:key>
+        <s:key name="delegate">scheduler</s:key>
+        <s:key name="doneProgress">1.00000</s:key>
+
+        <s:key name="dropCount">0</s:key>
+        <s:key name="earliestTime">2010-03-30T14:40:00.000-07:00</s:key>
+        <s:key name="eventAvailableCount">0</s:key>
+        <s:key name="eventCount">3849</s:key>
+        <s:key name="eventFieldCount">0</s:key>
+        <s:key name="eventIsStreaming">1</s:key>
+
+        <s:key name="eventIsTruncated">1</s:key>
+        <s:key name="eventSearch">search index=_internal (source=*/metrics.log* OR source=*\\metrics.log*) group=per_sourcetype_thruput </s:key>
+        <s:key name="eventSorting">none</s:key>
+        <s:key name="isDone">1</s:key>
+        <s:key name="isFailed">0</s:key>
+        <s:key name="isFinalized">0</s:key>
+
+        <s:key name="isPaused">0</s:key>
+        <s:key name="isPreviewEnabled">0</s:key>
+        <s:key name="isRealTimeSearch">0</s:key>
+        <s:key name="isSaved">0</s:key>
+        <s:key name="isSavedSearch">1</s:key>
+        <s:key name="isZombie">0</s:key>
+
+        <s:key name="keywords">group::per_sourcetype_thruput index::_internal source::*/metrics.log* source::*\metrics.log*</s:key>
+        <s:key name="label">Top five sourcetypes</s:key>
+        <s:key name="latestTime">2010-03-31T14:40:00.000-07:00</s:key>
+        <s:key name="priority">5</s:key>
+        <s:key name="remoteSearch">litsearch index=_internal ( source=*/metrics.log* OR source=*\\metrics.log* ) group=per_sourcetype_thruput | addinfo  type=count label=prereport_events | fields  keepcolorder=t "kb" "prestats_reserved_*" "psrsvd_*" "series" | convert  num("kb")  | prestats  sum(kb) AS "sum(kb)" by series</s:key>
+        <s:key name="reportSearch">chart  sum(kb) by series  | sort  -sum(kb)  | head  5</s:key>
+
+        <s:key name="resultCount">5</s:key>
+        <s:key name="resultIsStreaming">0</s:key>
+        <s:key name="resultPreviewCount">5</s:key>
+        <s:key name="runDuration">3.155000</s:key>
+        <s:key name="scanCount">3935</s:key>
+        <s:key name="searchEarliestTime">1269985200.000000000</s:key>
+
+        <s:key name="searchLatestTime">1270071600.000000000</s:key>
+        <s:key name="sid">scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071600_1719052799</s:key>
+        <s:key name="statusBuckets">0</s:key>
+        <s:key name="ttl">409</s:key>
+        <s:key name="messages">
+          <s:dict/>
+        </s:key>
+
+        <s:key name="request">
+          <s:dict>
+            <s:key name="ui_dispatch_app"></s:key>
+            <s:key name="ui_dispatch_view"></s:key>
+          </s:dict>
+        </s:key>
+        <s:key name="eai:acl">
+          <s:dict>
+            <s:key name="perms">
+
+              <s:dict>
+                <s:key name="read">
+                  <s:list>
+                    <s:item>admin</s:item>
+                  </s:list>
+                </s:key>
+                <s:key name="write">
+                  <s:list>
+
+                    <s:item>admin</s:item>
+                  </s:list>
+                </s:key>
+              </s:dict>
+            </s:key>
+            <s:key name="owner">nobody</s:key>
+            <s:key name="modifiable">true</s:key>
+
+            <s:key name="sharing">global</s:key>
+            <s:key name="app">search</s:key>
+            <s:key name="can_write">true</s:key>
+          </s:dict>
+        </s:key>
+        <s:key name="searchProviders">
+          <s:list>
+
+            <s:item>spacecake-nate</s:item>
+          </s:list>
+        </s:key>
+      </s:dict>
+    </content>
+  </entry>
+  <entry>
+    <title>search  index=_internal (source=*/metrics.log* OR source=*\\metrics.log*) group=per_sourcetype_thruput | timechart span=10m per_second(kb) by series</title>
+
+    <id>https://spacecake.splunk.com:8778/services/search/jobs/scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071600_1459509341</id>
+    <updated>2010-03-31T14:40:16.000-07:00</updated>
+    <link href="/services/search/jobs/scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071600_1459509341" rel="alternate"/>
+    <published>2010-03-31T14:40:01.000-07:00</published>
+    <link href="/services/search/jobs/scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071600_1459509341/events" rel="events"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071600_1459509341/results" rel="results"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071600_1459509341/results_preview" rel="results_preview"/>
+
+    <link href="/services/search/jobs/scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071600_1459509341/timeline" rel="timeline"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071600_1459509341/summary" rel="summary"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071600_1459509341/control" rel="control"/>
+    <author>
+      <name>splunk-system-user</name>
+    </author>
+    <content type="text/xml">
+      <s:dict>
+
+        <s:key name="cursorTime">1969-12-31T16:00:00.000-08:00</s:key>
+        <s:key name="delegate">scheduler</s:key>
+        <s:key name="doneProgress">1.00000</s:key>
+        <s:key name="dropCount">0</s:key>
+        <s:key name="earliestTime">2010-03-30T14:35:00.000-07:00</s:key>
+        <s:key name="eventAvailableCount">0</s:key>
+
+        <s:key name="eventCount">3878</s:key>
+        <s:key name="eventFieldCount">0</s:key>
+        <s:key name="eventIsStreaming">1</s:key>
+        <s:key name="eventIsTruncated">1</s:key>
+        <s:key name="eventSearch">search index=_internal (source=*/metrics.log* OR source=*\\metrics.log*) group=per_sourcetype_thruput </s:key>
+        <s:key name="eventSorting">none</s:key>
+
+        <s:key name="isDone">1</s:key>
+        <s:key name="isFailed">0</s:key>
+        <s:key name="isFinalized">0</s:key>
+        <s:key name="isPaused">0</s:key>
+        <s:key name="isPreviewEnabled">0</s:key>
+        <s:key name="isRealTimeSearch">0</s:key>
+
+        <s:key name="isSaved">0</s:key>
+        <s:key name="isSavedSearch">1</s:key>
+        <s:key name="isZombie">0</s:key>
+        <s:key name="keywords">group::per_sourcetype_thruput index::_internal source::*/metrics.log* source::*\metrics.log*</s:key>
+        <s:key name="label">Indexing workload</s:key>
+        <s:key name="latestTime">2010-03-31T14:35:00.000-07:00</s:key>
+
+        <s:key name="priority">5</s:key>
+        <s:key name="remoteSearch">litsearch index=_internal ( source=*/metrics.log* OR source=*\\metrics.log* ) group=per_sourcetype_thruput | addinfo  type=count label=prereport_events | fields  keepcolorder=t "_time" "kb" "prestats_reserved_*" "psrsvd_*" "series" | convert  num("kb")  | prediscretize  span=10m _time tz="### SERIALIZED TIMEZONE FORMAT 1.0;Y-25200 YW 50 44 54;Y-28800 NW 50 53 54;Y-25200 YW 50 57 54;Y-25200 YG 50 50 54;@-1633269600 0;@-1615129200 1;@-1601820000 0;@-1583679600 1;@-880207200 2;@-769395600 3;@-765385200 1;@-687967200 0;@-662655600 1;@-620834400 0;@-608137200 1;@-589384800 0;@-576082800 1;@-557935200 0;@-544633200 1;@-526485600 0;@-513183600 1;@-495036000 0;@-481734000 1;@-463586400 0;@-450284400 1;@-431532000 0;@-418230000 1;@-400082400 0;@-386780400 1;@-368632800 0;@-355330800 1;@-337183200 0;@-323881200 1;@-305733600 0;@-292431600 1;@-273679200 0;@-260982000 1;@-242229600 0;@-226508400 1;@-210780000 0;@-195058800 1;@-179330400 0;@-163609200 1;@-147880800 0;@-131554800 1;@-116431200 0;@-100105200 1;@-84376800 0;@-68655600 1;@-52927200 0;@-37206000 1;@-21477600 0;@-5756400 1;@9972000 0;@25693200 1;@41421600 0;@57747600 1;@73476000 0;@89197200 1;@104925600 0;@120646800 1;@126698400 0;@152096400 1;@162381600 0;@183546000 1;@199274400 0;@215600400 1;@230724000 0;@247050000 1;@262778400 0;@278499600 1;@294228000 0;@309949200 1;@325677600 0;@341398800 1;@357127200 0;@372848400 1;@388576800 0;@404902800 1;@420026400 0;@436352400 1;@452080800 0;@467802000 1;@483530400 0;@499251600 1;@514980000 0;@530701200 1;@544615200 0;@562150800 1;@576064800 0;@594205200 1;@607514400 0;@625654800 1;@638964000 0;@657104400 1;@671018400 0;@688554000 1;@702468000 0;@720003600 1;@733917600 0;@752058000 1;@765367200 0;@783507600 1;@796816800 0;@814957200 1;@828871200 0;@846406800 1;@860320800 0;@877856400 1;@891770400 0;@909306000 1;@923220000 0;@941360400 1;@954669600 0;@972810000 1;@986119200 0;@1004259600 1;@1018173600 0;@1035709200 1;@1049623200 0;@1067158800 1;@1081072800 0;@1099213200 1;@1112522400 0;@1130662800 1;@1143972000 0;@1162112400 1;@1173607200 0;@1194166800 1;@1205056800 0;@1225616400 1;@1236506400 0;@1257066000 1;@1268560800 0;@1289120400 1;@1300010400 0;@1320570000 1;@1331460000 0;@1352019600 1;@1362909600 0;@1383469200 1;@1394359200 0;@1414918800 1;@1425808800 0;@1446368400 1;@1457863200 0;@1478422800 1;@1489312800 0;@1509872400 1;@1520762400 0;@1541322000 1;@1552212000 0;@1572771600 1;@1583661600 0;@1604221200 1;@1615716000 0;@1636275600 1;@1647165600 0;@1667725200 1;@1678615200 0;@1699174800 1;@1710064800 0;@1730624400 1;@1741514400 0;@1762074000 1;@1772964000 0;@1793523600 1;@1805018400 0;@1825578000 1;@1836468000 0;@1857027600 1;@1867917600 0;@1888477200 1;@1899367200 0;@1919926800 1;@1930816800 0;@1951376400 1;@1962871200 0;@1983430800 1;@1994320800 0;@2014880400 1;@2025770400 0;@2046330000 1;@2057220000 0;@2077779600 1;@2088669600 0;@2109229200 1;@2120119200 0;@2140678800 1;$"  | fillnull  value=NULL "series"  | prestats  per_second(kb) AS "per_second(kb)" by _time series</s:key>
+        <s:key name="reportSearch">timechart  span=10m per_second(kb) by series</s:key>
+        <s:key name="resultCount">145</s:key>
+        <s:key name="resultIsStreaming">0</s:key>
+        <s:key name="resultPreviewCount">145</s:key>
+
+        <s:key name="runDuration">4.237000</s:key>
+        <s:key name="scanCount">3964</s:key>
+        <s:key name="searchEarliestTime">1269984900.000000000</s:key>
+        <s:key name="searchLatestTime">1270071300.000000000</s:key>
+        <s:key name="sid">scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071600_1459509341</s:key>
+        <s:key name="statusBuckets">0</s:key>
+
+        <s:key name="ttl">409</s:key>
+        <s:key name="messages">
+          <s:dict/>
+        </s:key>
+        <s:key name="request">
+          <s:dict>
+            <s:key name="ui_dispatch_app"></s:key>
+            <s:key name="ui_dispatch_view"></s:key>
+
+          </s:dict>
+        </s:key>
+        <s:key name="eai:acl">
+          <s:dict>
+            <s:key name="perms">
+              <s:dict>
+                <s:key name="read">
+                  <s:list>
+                    <s:item>admin</s:item>
+
+                  </s:list>
+                </s:key>
+                <s:key name="write">
+                  <s:list>
+                    <s:item>admin</s:item>
+                  </s:list>
+                </s:key>
+              </s:dict>
+
+            </s:key>
+            <s:key name="owner">nobody</s:key>
+            <s:key name="modifiable">true</s:key>
+            <s:key name="sharing">global</s:key>
+            <s:key name="app">search</s:key>
+            <s:key name="can_write">true</s:key>
+
+          </s:dict>
+        </s:key>
+        <s:key name="searchProviders">
+          <s:list>
+            <s:item>spacecake-nate</s:item>
+          </s:list>
+        </s:key>
+      </s:dict>
+
+    </content>
+  </entry>
+  <entry>
+    <title>search  index=_internal (source=*/metrics.log* OR source=*\\metrics.log*) group=per_sourcetype_thruput | chart sum(kb) by series | sort -sum(kb) | head 5</title>
+    <id>https://spacecake.splunk.com:8778/services/search/jobs/scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071300_255260806</id>
+    <updated>2010-03-31T14:35:26.000-07:00</updated>
+    <link href="/services/search/jobs/scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071300_255260806" rel="alternate"/>
+
+    <published>2010-03-31T14:35:01.000-07:00</published>
+    <link href="/services/search/jobs/scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071300_255260806/events" rel="events"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071300_255260806/results" rel="results"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071300_255260806/results_preview" rel="results_preview"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071300_255260806/timeline" rel="timeline"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071300_255260806/summary" rel="summary"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071300_255260806/control" rel="control"/>
+    <author>
+
+      <name>splunk-system-user</name>
+    </author>
+    <content type="text/xml">
+      <s:dict>
+        <s:key name="cursorTime">1969-12-31T16:00:00.000-08:00</s:key>
+        <s:key name="delegate">scheduler</s:key>
+        <s:key name="doneProgress">1.00000</s:key>
+
+        <s:key name="dropCount">0</s:key>
+        <s:key name="earliestTime">2010-03-30T14:35:00.000-07:00</s:key>
+        <s:key name="eventAvailableCount">0</s:key>
+        <s:key name="eventCount">3878</s:key>
+        <s:key name="eventFieldCount">0</s:key>
+        <s:key name="eventIsStreaming">1</s:key>
+
+        <s:key name="eventIsTruncated">1</s:key>
+        <s:key name="eventSearch">search index=_internal (source=*/metrics.log* OR source=*\\metrics.log*) group=per_sourcetype_thruput </s:key>
+        <s:key name="eventSorting">none</s:key>
+        <s:key name="isDone">1</s:key>
+        <s:key name="isFailed">0</s:key>
+        <s:key name="isFinalized">0</s:key>
+
+        <s:key name="isPaused">0</s:key>
+        <s:key name="isPreviewEnabled">0</s:key>
+        <s:key name="isRealTimeSearch">0</s:key>
+        <s:key name="isSaved">0</s:key>
+        <s:key name="isSavedSearch">1</s:key>
+        <s:key name="isZombie">0</s:key>
+
+        <s:key name="keywords">group::per_sourcetype_thruput index::_internal source::*/metrics.log* source::*\metrics.log*</s:key>
+        <s:key name="label">Top five sourcetypes</s:key>
+        <s:key name="latestTime">2010-03-31T14:35:00.000-07:00</s:key>
+        <s:key name="priority">5</s:key>
+        <s:key name="remoteSearch">litsearch index=_internal ( source=*/metrics.log* OR source=*\\metrics.log* ) group=per_sourcetype_thruput | addinfo  type=count label=prereport_events | fields  keepcolorder=t "kb" "prestats_reserved_*" "psrsvd_*" "series" | convert  num("kb")  | prestats  sum(kb) AS "sum(kb)" by series</s:key>
+        <s:key name="reportSearch">chart  sum(kb) by series  | sort  -sum(kb)  | head  5</s:key>
+
+        <s:key name="resultCount">5</s:key>
+        <s:key name="resultIsStreaming">0</s:key>
+        <s:key name="resultPreviewCount">5</s:key>
+        <s:key name="runDuration">5.167000</s:key>
+        <s:key name="scanCount">3964</s:key>
+        <s:key name="searchEarliestTime">1269984900.000000000</s:key>
+
+        <s:key name="searchLatestTime">1270071300.000000000</s:key>
+        <s:key name="sid">scheduler__nobody__search_VG9wIGZpdmUgc291cmNldHlwZXM_at_1270071300_255260806</s:key>
+        <s:key name="statusBuckets">0</s:key>
+        <s:key name="ttl">119</s:key>
+        <s:key name="messages">
+          <s:dict/>
+        </s:key>
+
+        <s:key name="request">
+          <s:dict>
+            <s:key name="ui_dispatch_app"></s:key>
+            <s:key name="ui_dispatch_view"></s:key>
+          </s:dict>
+        </s:key>
+        <s:key name="eai:acl">
+          <s:dict>
+            <s:key name="perms">
+
+              <s:dict>
+                <s:key name="read">
+                  <s:list>
+                    <s:item>admin</s:item>
+                  </s:list>
+                </s:key>
+                <s:key name="write">
+                  <s:list>
+
+                    <s:item>admin</s:item>
+                  </s:list>
+                </s:key>
+              </s:dict>
+            </s:key>
+            <s:key name="owner">nobody</s:key>
+            <s:key name="modifiable">true</s:key>
+
+            <s:key name="sharing">global</s:key>
+            <s:key name="app">search</s:key>
+            <s:key name="can_write">true</s:key>
+          </s:dict>
+        </s:key>
+        <s:key name="searchProviders">
+          <s:list>
+
+            <s:item>spacecake-nate</s:item>
+          </s:list>
+        </s:key>
+      </s:dict>
+    </content>
+  </entry>
+  <entry>
+    <title>search  index=_internal (source=*/metrics.log* OR source=*\\metrics.log*) group=per_sourcetype_thruput | timechart span=10m per_second(kb) by series</title>
+
+    <id>https://spacecake.splunk.com:8778/services/search/jobs/scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071300_1352848092</id>
+    <updated>2010-03-31T14:35:26.000-07:00</updated>
+    <link href="/services/search/jobs/scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071300_1352848092" rel="alternate"/>
+    <published>2010-03-31T14:35:01.000-07:00</published>
+    <link href="/services/search/jobs/scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071300_1352848092/events" rel="events"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071300_1352848092/results" rel="results"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071300_1352848092/results_preview" rel="results_preview"/>
+
+    <link href="/services/search/jobs/scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071300_1352848092/timeline" rel="timeline"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071300_1352848092/summary" rel="summary"/>
+    <link href="/services/search/jobs/scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071300_1352848092/control" rel="control"/>
+    <author>
+      <name>splunk-system-user</name>
+    </author>
+    <content type="text/xml">
+      <s:dict>
+
+        <s:key name="cursorTime">1969-12-31T16:00:00.000-08:00</s:key>
+        <s:key name="delegate">scheduler</s:key>
+        <s:key name="doneProgress">1.00000</s:key>
+        <s:key name="dropCount">0</s:key>
+        <s:key name="earliestTime">2010-03-30T14:30:00.000-07:00</s:key>
+        <s:key name="eventAvailableCount">0</s:key>
+
+        <s:key name="eventCount">3902</s:key>
+        <s:key name="eventFieldCount">0</s:key>
+        <s:key name="eventIsStreaming">1</s:key>
+        <s:key name="eventIsTruncated">1</s:key>
+        <s:key name="eventSearch">search index=_internal (source=*/metrics.log* OR source=*\\metrics.log*) group=per_sourcetype_thruput </s:key>
+        <s:key name="eventSorting">none</s:key>
+
+        <s:key name="isDone">1</s:key>
+        <s:key name="isFailed">0</s:key>
+        <s:key name="isFinalized">0</s:key>
+        <s:key name="isPaused">0</s:key>
+        <s:key name="isPreviewEnabled">0</s:key>
+        <s:key name="isRealTimeSearch">0</s:key>
+
+        <s:key name="isSaved">0</s:key>
+        <s:key name="isSavedSearch">1</s:key>
+        <s:key name="isZombie">0</s:key>
+        <s:key name="keywords">group::per_sourcetype_thruput index::_internal source::*/metrics.log* source::*\metrics.log*</s:key>
+        <s:key name="label">Indexing workload</s:key>
+        <s:key name="latestTime">2010-03-31T14:30:00.000-07:00</s:key>
+
+        <s:key name="priority">5</s:key>
+        <s:key name="remoteSearch">litsearch index=_internal ( source=*/metrics.log* OR source=*\\metrics.log* ) group=per_sourcetype_thruput | addinfo  type=count label=prereport_events | fields  keepcolorder=t "_time" "kb" "prestats_reserved_*" "psrsvd_*" "series" | convert  num("kb")  | prediscretize  span=10m _time tz="### SERIALIZED TIMEZONE FORMAT 1.0;Y-25200 YW 50 44 54;Y-28800 NW 50 53 54;Y-25200 YW 50 57 54;Y-25200 YG 50 50 54;@-1633269600 0;@-1615129200 1;@-1601820000 0;@-1583679600 1;@-880207200 2;@-769395600 3;@-765385200 1;@-687967200 0;@-662655600 1;@-620834400 0;@-608137200 1;@-589384800 0;@-576082800 1;@-557935200 0;@-544633200 1;@-526485600 0;@-513183600 1;@-495036000 0;@-481734000 1;@-463586400 0;@-450284400 1;@-431532000 0;@-418230000 1;@-400082400 0;@-386780400 1;@-368632800 0;@-355330800 1;@-337183200 0;@-323881200 1;@-305733600 0;@-292431600 1;@-273679200 0;@-260982000 1;@-242229600 0;@-226508400 1;@-210780000 0;@-195058800 1;@-179330400 0;@-163609200 1;@-147880800 0;@-131554800 1;@-116431200 0;@-100105200 1;@-84376800 0;@-68655600 1;@-52927200 0;@-37206000 1;@-21477600 0;@-5756400 1;@9972000 0;@25693200 1;@41421600 0;@57747600 1;@73476000 0;@89197200 1;@104925600 0;@120646800 1;@126698400 0;@152096400 1;@162381600 0;@183546000 1;@199274400 0;@215600400 1;@230724000 0;@247050000 1;@262778400 0;@278499600 1;@294228000 0;@309949200 1;@325677600 0;@341398800 1;@357127200 0;@372848400 1;@388576800 0;@404902800 1;@420026400 0;@436352400 1;@452080800 0;@467802000 1;@483530400 0;@499251600 1;@514980000 0;@530701200 1;@544615200 0;@562150800 1;@576064800 0;@594205200 1;@607514400 0;@625654800 1;@638964000 0;@657104400 1;@671018400 0;@688554000 1;@702468000 0;@720003600 1;@733917600 0;@752058000 1;@765367200 0;@783507600 1;@796816800 0;@814957200 1;@828871200 0;@846406800 1;@860320800 0;@877856400 1;@891770400 0;@909306000 1;@923220000 0;@941360400 1;@954669600 0;@972810000 1;@986119200 0;@1004259600 1;@1018173600 0;@1035709200 1;@1049623200 0;@1067158800 1;@1081072800 0;@1099213200 1;@1112522400 0;@1130662800 1;@1143972000 0;@1162112400 1;@1173607200 0;@1194166800 1;@1205056800 0;@1225616400 1;@1236506400 0;@1257066000 1;@1268560800 0;@1289120400 1;@1300010400 0;@1320570000 1;@1331460000 0;@1352019600 1;@1362909600 0;@1383469200 1;@1394359200 0;@1414918800 1;@1425808800 0;@1446368400 1;@1457863200 0;@1478422800 1;@1489312800 0;@1509872400 1;@1520762400 0;@1541322000 1;@1552212000 0;@1572771600 1;@1583661600 0;@1604221200 1;@1615716000 0;@1636275600 1;@1647165600 0;@1667725200 1;@1678615200 0;@1699174800 1;@1710064800 0;@1730624400 1;@1741514400 0;@1762074000 1;@1772964000 0;@1793523600 1;@1805018400 0;@1825578000 1;@1836468000 0;@1857027600 1;@1867917600 0;@1888477200 1;@1899367200 0;@1919926800 1;@1930816800 0;@1951376400 1;@1962871200 0;@1983430800 1;@1994320800 0;@2014880400 1;@2025770400 0;@2046330000 1;@2057220000 0;@2077779600 1;@2088669600 0;@2109229200 1;@2120119200 0;@2140678800 1;$"  | fillnull  value=NULL "series"  | prestats  per_second(kb) AS "per_second(kb)" by _time series</s:key>
+        <s:key name="reportSearch">timechart  span=10m per_second(kb) by series</s:key>
+        <s:key name="resultCount">144</s:key>
+        <s:key name="resultIsStreaming">0</s:key>
+        <s:key name="resultPreviewCount">144</s:key>
+
+        <s:key name="runDuration">4.540000</s:key>
+        <s:key name="scanCount">3988</s:key>
+        <s:key name="searchEarliestTime">1269984600.000000000</s:key>
+        <s:key name="searchLatestTime">1270071000.000000000</s:key>
+        <s:key name="sid">scheduler__nobody__search_SW5kZXhpbmcgd29ya2xvYWQ_at_1270071300_1352848092</s:key>
+        <s:key name="statusBuckets">0</s:key>
+
+        <s:key name="ttl">119</s:key>
+        <s:key name="messages">
+          <s:dict/>
+        </s:key>
+        <s:key name="request">
+          <s:dict>
+            <s:key name="ui_dispatch_app"></s:key>
+            <s:key name="ui_dispatch_view"></s:key>
+
+          </s:dict>
+        </s:key>
+        <s:key name="eai:acl">
+          <s:dict>
+            <s:key name="perms">
+              <s:dict>
+                <s:key name="read">
+                  <s:list>
+                    <s:item>admin</s:item>
+
+                  </s:list>
+                </s:key>
+                <s:key name="write">
+                  <s:list>
+                    <s:item>admin</s:item>
+                  </s:list>
+                </s:key>
+              </s:dict>
+
+            </s:key>
+            <s:key name="owner">nobody</s:key>
+            <s:key name="modifiable">true</s:key>
+            <s:key name="sharing">global</s:key>
+            <s:key name="app">search</s:key>
+            <s:key name="can_write">true</s:key>
+
+          </s:dict>
+        </s:key>
+        <s:key name="searchProviders">
+          <s:list>
+            <s:item>spacecake-nate</s:item>
+          </s:list>
+        </s:key>
+      </s:dict>
+
+    </content>
+  </entry>
+  <entry>
+    <title>search  index="_internal" source="*metrics.log" group="per_sourcetype_thruput"  | bin _time span=5min | stats count by series, eps, kb, kbps, _time</title>
+    <id>https://spacecake.splunk.com:8778/services/search/jobs/scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270071000_605734994</id>
+    <updated>2010-03-31T14:30:06.000-07:00</updated>
+    <link href="/services/search/jobs/scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270071000_605734994" rel="alternate"/>
+
+    <published>2010-03-31T14:30:01.000-07:00</published>
+    <link href="/services/search/jobs/scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270071000_605734994/events" rel="events"/>
+    <link href="/services/search/jobs/scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270071000_605734994/results" rel="results"/>
+    <link href="/services/search/jobs/scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270071000_605734994/results_preview" rel="results_preview"/>
+    <link href="/services/search/jobs/scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270071000_605734994/timeline" rel="timeline"/>
+    <link href="/services/search/jobs/scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270071000_605734994/summary" rel="summary"/>
+    <link href="/services/search/jobs/scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270071000_605734994/control" rel="control"/>
+    <author>
+
+      <name>splunk-system-user</name>
+    </author>
+    <content type="text/xml">
+      <s:dict>
+        <s:key name="cursorTime">1969-12-31T16:00:00.000-08:00</s:key>
+        <s:key name="delegate">scheduler</s:key>
+        <s:key name="doneProgress">1.00000</s:key>
+
+        <s:key name="dropCount">0</s:key>
+        <s:key name="earliestTime">2010-03-31T10:00:00.000-07:00</s:key>
+        <s:key name="eventAvailableCount">0</s:key>
+        <s:key name="eventCount">0</s:key>
+        <s:key name="eventFieldCount">0</s:key>
+        <s:key name="eventIsStreaming">1</s:key>
+
+        <s:key name="eventIsTruncated">1</s:key>
+        <s:key name="eventSearch">search index="_internal" source="*metrics.log" group="per_sourcetype_thruput"   | bin _time span=5min </s:key>
+        <s:key name="eventSorting">desc</s:key>
+        <s:key name="isDone">1</s:key>
+        <s:key name="isFailed">0</s:key>
+        <s:key name="isFinalized">0</s:key>
+
+        <s:key name="isPaused">0</s:key>
+        <s:key name="isPreviewEnabled">0</s:key>
+        <s:key name="isRealTimeSearch">0</s:key>
+        <s:key name="isSaved">0</s:key>
+        <s:key name="isSavedSearch">1</s:key>
+        <s:key name="isZombie">0</s:key>
+
+        <s:key name="keywords">group::per_sourcetype_thruput index::_internal source::*metrics.log</s:key>
+        <s:key name="label">Sample saved search for use with postProcess</s:key>
+        <s:key name="latestTime">2010-03-31T14:30:00.000-07:00</s:key>
+        <s:key name="priority">5</s:key>
+        <s:key name="remoteSearch">litsearch index="_internal" source="*metrics.log" group="per_sourcetype_thruput" | bin  _time span=5min  | addinfo  type=count label=prereport_events | fields  keepcolorder=t "_time" "eps" "kb" "kbps" "prestats_reserved_*" "psrsvd_*" "series" | prestats  count by series eps kb kbps _time</s:key>
+        <s:key name="reportSearch">stats  count by series, eps, kb, kbps, _time</s:key>
+
+        <s:key name="resultCount">0</s:key>
+        <s:key name="resultIsStreaming">0</s:key>
+        <s:key name="resultPreviewCount">0</s:key>
+        <s:key name="runDuration">0.203000</s:key>
+        <s:key name="scanCount">86</s:key>
+        <s:key name="searchEarliestTime">1270054800.000000000</s:key>
+
+        <s:key name="searchLatestTime">1270071000.000000000</s:key>
+        <s:key name="sid">scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270071000_605734994</s:key>
+        <s:key name="statusBuckets">0</s:key>
+        <s:key name="ttl">999</s:key>
+        <s:key name="messages">
+          <s:dict/>
+        </s:key>
+
+        <s:key name="request">
+          <s:dict>
+            <s:key name="ui_dispatch_app"></s:key>
+            <s:key name="ui_dispatch_view"></s:key>
+          </s:dict>
+        </s:key>
+        <s:key name="eai:acl">
+          <s:dict>
+            <s:key name="perms">
+
+              <s:dict>
+                <s:key name="read">
+                  <s:list>
+                    <s:item>*</s:item>
+                  </s:list>
+                </s:key>
+                <s:key name="write">
+                  <s:list>
+
+                    <s:item>*</s:item>
+                  </s:list>
+                </s:key>
+              </s:dict>
+            </s:key>
+            <s:key name="owner">nobody</s:key>
+            <s:key name="modifiable">true</s:key>
+
+            <s:key name="sharing">global</s:key>
+            <s:key name="app">ui_examples</s:key>
+            <s:key name="can_write">true</s:key>
+          </s:dict>
+        </s:key>
+        <s:key name="searchProviders">
+          <s:list>
+
+            <s:item>spacecake-nate</s:item>
+          </s:list>
+        </s:key>
+      </s:dict>
+    </content>
+  </entry>
+  <entry>
+    <title>search  index="_internal" source="*metrics.log" group="per_sourcetype_thruput"  | bin _time span=5min | stats count by series, eps, kb, kbps, _time</title>
+
+    <id>https://spacecake.splunk.com:8778/services/search/jobs/scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270070100_882929536</id>
+    <updated>2010-03-31T14:15:06.000-07:00</updated>
+    <link href="/services/search/jobs/scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270070100_882929536" rel="alternate"/>
+    <published>2010-03-31T14:15:01.000-07:00</published>
+    <link href="/services/search/jobs/scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270070100_882929536/events" rel="events"/>
+    <link href="/services/search/jobs/scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270070100_882929536/results" rel="results"/>
+    <link href="/services/search/jobs/scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270070100_882929536/results_preview" rel="results_preview"/>
+
+    <link href="/services/search/jobs/scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270070100_882929536/timeline" rel="timeline"/>
+    <link href="/services/search/jobs/scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270070100_882929536/summary" rel="summary"/>
+    <link href="/services/search/jobs/scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270070100_882929536/control" rel="control"/>
+    <author>
+      <name>splunk-system-user</name>
+    </author>
+    <content type="text/xml">
+      <s:dict>
+
+        <s:key name="cursorTime">1969-12-31T16:00:00.000-08:00</s:key>
+        <s:key name="delegate">scheduler</s:key>
+        <s:key name="doneProgress">1.00000</s:key>
+        <s:key name="dropCount">0</s:key>
+        <s:key name="earliestTime">2010-03-31T10:00:00.000-07:00</s:key>
+        <s:key name="eventAvailableCount">0</s:key>
+
+        <s:key name="eventCount">0</s:key>
+        <s:key name="eventFieldCount">0</s:key>
+        <s:key name="eventIsStreaming">1</s:key>
+        <s:key name="eventIsTruncated">1</s:key>
+        <s:key name="eventSearch">search index="_internal" source="*metrics.log" group="per_sourcetype_thruput"   | bin _time span=5min </s:key>
+        <s:key name="eventSorting">desc</s:key>
+
+        <s:key name="isDone">1</s:key>
+        <s:key name="isFailed">0</s:key>
+        <s:key name="isFinalized">0</s:key>
+        <s:key name="isPaused">0</s:key>
+        <s:key name="isPreviewEnabled">0</s:key>
+        <s:key name="isRealTimeSearch">0</s:key>
+
+        <s:key name="isSaved">0</s:key>
+        <s:key name="isSavedSearch">1</s:key>
+        <s:key name="isZombie">0</s:key>
+        <s:key name="keywords">group::per_sourcetype_thruput index::_internal source::*metrics.log</s:key>
+        <s:key name="label">Sample saved search for use with postProcess</s:key>
+        <s:key name="latestTime">2010-03-31T14:15:00.000-07:00</s:key>
+
+        <s:key name="priority">5</s:key>
+        <s:key name="remoteSearch">litsearch index="_internal" source="*metrics.log" group="per_sourcetype_thruput" | bin  _time span=5min  | addinfo  type=count label=prereport_events | fields  keepcolorder=t "_time" "eps" "kb" "kbps" "prestats_reserved_*" "psrsvd_*" "series" | prestats  count by series eps kb kbps _time</s:key>
+        <s:key name="reportSearch">stats  count by series, eps, kb, kbps, _time</s:key>
+        <s:key name="resultCount">0</s:key>
+        <s:key name="resultIsStreaming">0</s:key>
+        <s:key name="resultPreviewCount">0</s:key>
+
+        <s:key name="runDuration">0.252000</s:key>
+        <s:key name="scanCount">86</s:key>
+        <s:key name="searchEarliestTime">1270054800.000000000</s:key>
+        <s:key name="searchLatestTime">1270070100.000000000</s:key>
+        <s:key name="sid">scheduler__nobody_dWlfZXhhbXBsZXM_U2FtcGxlIHNhdmVkIHNlYXJjaCBmb3IgdXNlIHdpdGggcG9zdFByb2Nlc3M_at_1270070100_882929536</s:key>
+        <s:key name="statusBuckets">0</s:key>
+
+        <s:key name="ttl">99</s:key>
+        <s:key name="messages">
+          <s:dict/>
+        </s:key>
+        <s:key name="request">
+          <s:dict>
+            <s:key name="ui_dispatch_app"></s:key>
+            <s:key name="ui_dispatch_view"></s:key>
+
+          </s:dict>
+        </s:key>
+        <s:key name="eai:acl">
+          <s:dict>
+            <s:key name="perms">
+              <s:dict>
+                <s:key name="read">
+                  <s:list>
+                    <s:item>*</s:item>
+
+                  </s:list>
+                </s:key>
+                <s:key name="write">
+                  <s:list>
+                    <s:item>*</s:item>
+                  </s:list>
+                </s:key>
+              </s:dict>
+
+            </s:key>
+            <s:key name="owner">nobody</s:key>
+            <s:key name="modifiable">true</s:key>
+            <s:key name="sharing">global</s:key>
+            <s:key name="app">ui_examples</s:key>
+            <s:key name="can_write">true</s:key>
+
+          </s:dict>
+        </s:key>
+        <s:key name="searchProviders">
+          <s:list>
+            <s:item>spacecake-nate</s:item>
+          </s:list>
+        </s:key>
+      </s:dict>
+
+    </content>
+  </entry>
+</feed>

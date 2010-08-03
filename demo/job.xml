@@ -1,0 +1,103 @@
+<!--This is to override browser formatting; see server.conf[httpServer] to disable. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .--> 
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:s="http://dev.splunk.com/ns/rest" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/"> 
+  <title>search index=_internal | head 10</title> 
+  <id>https://spacecake.splunk.com:8778/services/search/jobs/1270076111.83</id> 
+  <updated>2010-03-31T15:55:27.000-07:00</updated> 
+  <link href="/services/search/jobs/1270076111.83" rel="alternate"/> 
+  <published>2010-03-31T15:55:11.000-07:00</published> 
+  <link href="/services/search/jobs/1270076111.83/events" rel="events"/> 
+  <link href="/services/search/jobs/1270076111.83/results" rel="results"/> 
+  <link href="/services/search/jobs/1270076111.83/results_preview" rel="results_preview"/> 
+  <link href="/services/search/jobs/1270076111.83/timeline" rel="timeline"/> 
+  <link href="/services/search/jobs/1270076111.83/summary" rel="summary"/> 
+  <link href="/services/search/jobs/1270076111.83/control" rel="control"/> 
+  <author> 
+    <name>admin</name> 
+  </author> 
+  <content type="text/xml"> 
+    <s:dict> 
+      <s:key name="cursorTime">2010-03-31T14:55:00.000-07:00</s:key> 
+      <s:key name="delegate"></s:key> 
+      <s:key name="doneProgress">1.00000</s:key> 
+      <s:key name="dropCount">0</s:key> 
+      <s:key name="earliestTime">2010-03-31T14:55:00.000-07:00</s:key> 
+      <s:key name="eventAvailableCount">10</s:key> 
+      <s:key name="eventCount">10</s:key> 
+      <s:key name="eventFieldCount">93</s:key> 
+      <s:key name="eventIsStreaming">1</s:key> 
+      <s:key name="eventIsTruncated">0</s:key> 
+      <s:key name="eventSearch">search index=_internal  | head 10</s:key> 
+      <s:key name="eventSorting">desc</s:key> 
+      <s:key name="isDone">1</s:key> 
+      <s:key name="isFailed">0</s:key> 
+      <s:key name="isFinalized">0</s:key> 
+      <s:key name="isPaused">0</s:key> 
+      <s:key name="isPreviewEnabled">1</s:key> 
+      <s:key name="isRealTimeSearch">0</s:key> 
+      <s:key name="isSaved">1</s:key> 
+      <s:key name="isSavedSearch">0</s:key> 
+      <s:key name="isZombie">0</s:key> 
+      <s:key name="keywords">index::_internal</s:key> 
+      <s:key name="label"></s:key> 
+      <s:key name="latestTime">2010-03-31T15:55:11.000-07:00</s:key> 
+      <s:key name="priority">5</s:key> 
+      <s:key name="remoteSearch">litsearch index=_internal | fields  keepcolorder=t * "*" "host" "index" "source" "sourcetype" "splunk_server" | prehead  limit=10 null=false keeplast=false</s:key> 
+      <s:key name="reportSearch"></s:key> 
+      <s:key name="resultCount">10</s:key> 
+      <s:key name="resultIsStreaming">1</s:key> 
+      <s:key name="resultPreviewCount">10</s:key> 
+      <s:key name="runDuration">0.157000</s:key> 
+      <s:key name="scanCount">537</s:key> 
+      <s:key name="searchEarliestTime">1270072500.000000000</s:key> 
+      <s:key name="searchLatestTime">1270076111.000000000</s:key> 
+      <s:key name="sid">1270076111.83</s:key> 
+      <s:key name="statusBuckets">300</s:key> 
+      <s:key name="ttl">584</s:key> 
+      <s:key name="messages"> 
+        <s:dict/> 
+      </s:key> 
+      <s:key name="request"> 
+        <s:dict> 
+          <s:key name="auto_cancel">100</s:key> 
+          <s:key name="earliest_time">-60m@m</s:key> 
+          <s:key name="latest_time">now</s:key> 
+          <s:key name="max_count">10000</s:key> 
+          <s:key name="required_field_list">*</s:key> 
+          <s:key name="search">search index=_internal | head 10</s:key> 
+          <s:key name="status_buckets">300</s:key> 
+          <s:key name="time_format">%s.%Q</s:key> 
+          <s:key name="ui_dispatch_app">search</s:key> 
+          <s:key name="ui_dispatch_view">flashtimeline</s:key> 
+        </s:dict> 
+      </s:key> 
+      <s:key name="eai:acl"> 
+        <s:dict> 
+          <s:key name="perms"> 
+            <s:dict> 
+              <s:key name="read"> 
+                <s:list> 
+                  <s:item>admin</s:item> 
+                </s:list> 
+              </s:key> 
+              <s:key name="write"> 
+                <s:list> 
+                  <s:item>admin</s:item> 
+                </s:list> 
+              </s:key> 
+            </s:dict> 
+          </s:key> 
+          <s:key name="owner">admin</s:key> 
+          <s:key name="modifiable">true</s:key> 
+          <s:key name="sharing">global</s:key> 
+          <s:key name="app">search</s:key> 
+          <s:key name="can_write">true</s:key> 
+        </s:dict> 
+      </s:key> 
+      <s:key name="searchProviders"> 
+        <s:list> 
+          <s:item>spacecake-nate</s:item> 
+        </s:list> 
+      </s:key> 
+    </s:dict> 
+  </content> 
+</entry>
