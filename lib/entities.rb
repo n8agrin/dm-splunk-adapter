@@ -8,10 +8,16 @@ module Splunk
   module Entities
     class << self
       def get(path, options={})
-        #resp = Splunk::Connection.get(path, Splunk::DEFAULT_CONNECTION_OPTIONS.merge(options)).body
-        resp = open(File.join(File.expand_path(File.dirname(__FILE__)),'..','demo','jobs.xml')).read
+        resp = Splunk::Connection.get(path, options).body
+        #resp = open(File.join(File.expand_path(File.dirname(__FILE__)),'..','demo','jobs.xml')).read
         parser = Splunk::Parser.get_parser(options['parser'] || Splunk::DEFAULT_PARSER)
         parser.parse(resp)
+      end
+      
+      def post(path, params={}, options={})
+        resp = Splunk::Connection.post(path, params, options).body
+        puts resp
+        Splunk::Parser.get_parser(options['parser'] || Splunk::DEFAULT_PARSER).parse(resp)
       end
     end
 

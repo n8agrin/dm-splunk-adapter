@@ -20,10 +20,20 @@ module Splunk
         def parse(xml)
           parsed = ActiveSupport::XmlMini.parse(xml)
           if parsed.has_key?('feed')
-            parse_feed(parsed)
+            return parse_feed(parsed)
           elsif parsed.has_key?('entry')
-            [parse_entry(parsed['entry'])]
+            return [parse_entry(parsed['entry'])]
+          elsif parsed.has_key?('response')
+            return [parse_response(parsed['response'])]
           end 
+        end
+        
+        def parse_response(hash)
+          out = {}
+          hash.each_pair do |key, value|
+            out[key] = value['__content__'] if value.has_key?('__content__')
+          end
+          out
         end
 
         def parse_feed(hash)

@@ -5,6 +5,7 @@ require 'dm-core'
 require 'dm-splunk-adapter'
 require 'entities'
 require 'models/job'
+require 'time'
 
 DataMapper.setup(:default, {
     :adapter    => 'splunk',
@@ -14,32 +15,37 @@ DataMapper.setup(:default, {
     :password   => 'changeme'
 })
 
-DataMapper.finalize
 
-b = Splunk::Model::Job.all
-a = b[0]
-puts a.sid
-puts a.isDone
-puts a.label
-puts a.earliestTime
-puts b.save
+j = Splunk::Model::Job.create(:search => 'search index=_internal')
+puts j.id
+puts j.sid
+puts j.key
+10.times do
+  sleep(1)
+  now = Time.now
+  j.reload
+  puts j.event_count
+  puts Time.now - now
+end
 
-##Splunk::Model::Job.get(1)
-#o = {
-#    'user' => 'admin',
-#    'password' => 'changeme',
-#    'host' => 'tui.splunk.com',
-#    'headers' => {
-#
-#    }
-#}
-#require 'time'
-#s = Time.now
-#Splunk::Connection.get('/services/search/jobs', {:foo => 'bar'}, o).body
-#puts Time.now - s
-#s = Time.now
-#Splunk::Connection.get('/services/search/jobs', o).body
-#puts Time.now - s
-#s = Time.now
-#Splunk::Connection.get('/services/search/jobs', o).body
-#puts Time.now - s
+# puts "SID #{j.sid}"
+
+# puts j.id
+# puts j.attribute_loaded?(:id)
+# puts j.original_attributes
+# puts j.is_done
+
+# puts j.is_done
+# puts j.sid
+# puts j.search
+
+# b = Splunk::Model::Job.all(:is_done => false)
+# 
+# b.each do |a|
+#   puts a.event_count
+# # puts "SID           => #{a.sid}"
+# # puts "Is done?      => #{a.is_done?}"
+# # puts "Label         => #{a.label}"
+# # puts "Earliest time => #{a.earliest_time}"
+# # puts a.done_progress
+# end

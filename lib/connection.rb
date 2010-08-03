@@ -19,14 +19,16 @@ module Splunk
 
         def request(method, path, options={})
           conn = Patron::Session.new
-          conn.base_url = gen_base_uri(options) 
+          conn.base_url = gen_base_uri(options)
           conn.insecure = options[:ssl_secure] ? !options[:ssl_secure] : true
           options[:headers] ||= {}
-
+puts "Splunk base url #{conn.base_url}"
+puts "Splunk path #{path}"
           if method == :get
             resp = conn.get(path, options[:headers])
           elsif method == :post
-            #resp = conn.post(path, body, options[:headers])
+puts "Splunk body #{options['body']}"
+            resp = conn.post(path, options['body'], options[:headers])
           end
 
           # Handle status responses
@@ -40,8 +42,8 @@ module Splunk
           request(:get, path, options)
         end
         
-        def post(path, query=nil, options={})
-          options['query'] = query
+        def post(path, body={}, options={})
+          options['body'] = to_query(body)
           request(:post, path, options)
         end
 
